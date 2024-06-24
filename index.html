@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <title>Document</title>
+    <style>
+      .dropbtn {
+        background-color: #4b96ff;
+        color: white;
+        /* padding: 16px; */
+        padding-left: 30px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+      }
+      .dropbtn::after{
+        display: inline-block;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+      
+      
+      .dropbtn:hover, .dropbtn:focus {
+        background-color: #4b96ff;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #70abfd;
+        min-width: 160px;
+        overflow: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        margin-left: 30px;
+        border-radius: 15px;
+      }
+      
+      .dropdown-content a {
+        color: #fff;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown a:hover {background-color: #ddd;}
+      
+      .show {display: block;}
+      </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="container-header">
+          <div class="header__logo">
+            <div class="block-logo">
+              <img src="img/logo.svg" alt="" />
+            </div>
+          </div>
+          <div class="header__nav">
+            <div class="block-social">
+              <a href="#" class="block-social__icons">
+                <?xml version="1.0" encoding="utf-8"?>
+                <svg
+                  fill="#4b96ff"
+                  class="size-icons"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 24 24"
+                  xml:space="preserve"
+                >
+                  <style type="text/css">
+                    .st0 {
+                      fill: none;
+                    }
+                  </style>
+                  <path
+                    d="M19.2,4.4L2.9,10.7c-1.1,0.4-1.1,1.1-0.2,1.3l4.1,1.3l1.6,4.8c0.2,0.5,0.1,0.7,0.6,0.7c0.4,0,0.6-0.2,0.8-0.4
+                            c0.1-0.1,1-1,2-2l4.2,3.1c0.8,0.4,1.3,0.2,1.5-0.7l2.8-13.1C20.6,4.6,19.9,4,19.2,4.4z M17.1,7.4l-7.8,7.1L9,17.8L7.4,13l9.2-5.8
+                            C17,6.9,17.4,7.1,17.1,7.4z"/>
+                  <rect y="0" class="st0" width="24" height="24" />
+                </svg>
+              </a>
+              <a href="#" class="block-social__icons"
+                ><?xml version="1.0" encoding="utf-8"?>
+                <?xml version="1.0" encoding="utf-8"?>
+
+                <svg
+                  class="size-icons"
+                  width="40px"
+                  height="40px"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <rect x="0" fill="none" width="20" height="20" />
+                  <g>
+                    <path
+                      d="M16.8 5.7C14.4 2 9.5.9 5.7 3.2 2 5.5.8 10.5 3.2 14.2l.2.3-.8 3 3-.8.3.2c1.3.7 2.7 1.1 4.1 1.1 1.5 0 3-.4 4.3-1.2 3.7-2.4 4.8-7.3 2.5-11.1zm-2.1 7.7c-.4.6-.9 1-1.6 1.1-.4 0-.9.2-2.9-.6-1.7-.8-3.1-2.1-4.1-3.6-.6-.7-.9-1.6-1-2.5 0-.8.3-1.5.8-2 .2-.2.4-.3.6-.3H7c.2 0 .4 0 .5.4.2.5.7 1.7.7 1.8.1.1.1.3 0 .4.1.2 0 .4-.1.5-.1.1-.2.3-.3.4-.2.1-.3.3-.2.5.4.6.9 1.2 1.4 1.7.6.5 1.2.9 1.9 1.2.2.1.4.1.5-.1s.6-.7.8-.9c.2-.2.3-.2.5-.1l1.6.8c.2.1.4.2.5.3.1.3.1.7-.1 1z" /></g>
+                </svg>
+              </a>
+              <a href="#" class="block-social__tel">
+                <?xml version="1.0" ?>
+                <svg
+                  class="size-icons"
+                  width="40px"
+                  height="40px"
+                  viewBox="0 0 128 128"
+                  data-name="Слой 1"
+                  id="Слой_1"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: #ffffff;
+                      }
+                      .cls-2 {
+                        fill: #4b96ff;
+                      }
+                    </style>
+                  </defs>
+                  <title />
+                  <path
+                    class="cls-1"
+                    d="M98,52.91V9.75A7.9,7.9,0,0,0,90,2H38a7.9,7.9,0,0,0-8,7.75v108.5A7.9,7.9,0,0,0,38,126H90a7.9,7.9,0,0,0,8-7.75Z"/>
+                  <path
+                    class="cls-2"
+                    d="M90,128H38a9.89,9.89,0,0,1-10-9.75V9.75A9.89,9.89,0,0,1,38,0H90a9.89,9.89,0,0,1,10,9.75v108.5A9.89,9.89,0,0,1,90,128ZM38,4a5.89,5.89,0,0,0-6,5.75v108.5A5.89,5.89,0,0,0,38,124H90a5.89,5.89,0,0,0,6-5.75V9.75A5.89,5.89,0,0,0,90,4Z" />
+                  <path
+                    class="cls-2"
+                    d="M75.05,12H52.95C50.22,12,48,9.43,48,6.28V2.49h4V6.28c0,1,.57,1.72.95,1.72H75.05c.38,0,.95-.69.95-1.72V3.11h4V6.28C80,9.43,77.78,12,75.05,12Z" />
+                </svg>
+                +7888-888-88-88
+              </a>
+            </div>
+
+
+            <div class="menu menu-burger">
+              <input type="checkbox" id="burger-checkbox" class="burger-checkbox "  style=" display: none;" >
+              <label for="burger-checkbox" class="burger"></label>
+              <ul class="menu-list">
+                  <li><a href="#about-company" class="menu-item">О Компании</a><li>
+                  <li><a href="#texnology" class="menu-item">Наши разработки</a><li>
+                  <li><a href="#poject" class="menu-item">О проекте</a><li>
+
+                    <div class="dropdown">
+                      <button onclick="myFunction()" class="dropbtn"> Расчетная часть</button>
+                      <div id="myDropdown" class="dropdown-content">
+                        <a href="#compressor">Компрессора</a>
+                        <a href="#camera">Камеры сгорания</a>
+                        <a href="#turbina">Турбины</a>
+                      </div>
+                    </div>
+
+
+                  <li><a href="#our-teh" class="menu-item">Техническое изготовление</a><li>
+                  <li><a href="#pozvolyaet" class="menu-item">Наши технологии позволяют</a><li>
+                  <li><a href="#footer" class="menu-item">Контакты</a><li>
+
+              </ul>
+          </div>
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="container-menu-list">
+          <nav class="nav-list">
+            <ul class="nav-ul">
+              <li class="nav-ul__list">
+                <a class="link-nav" href="#about-company">О Компании</a>
+              </li>
+              <li class="nav-ul__list">
+                <a class="link-nav" href="#texnology">Наши разработки</a>
+              </li>
+              <li class="nav-ul__list">
+                <a class="link-nav" href="#poject"> О проекте</a>
+              </li>
+             
+              <div class="dropdown">
+                <a
+                  class="btn btn-turbo-color dropdown-toggle"
+                  href="#"
+                  role="button"
+                  id="dropdownMenuLink"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Расчетная часть
+                </a>
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <li><a class="dropdown-item" href="#compressor">Компрессора</a></li>
+                  <li><a class="dropdown-item" href="#camera">Камеры сгорания</a></li>
+                  <li><a class="dropdown-item" href="#turbina">Турбины</a></li>
+                </ul>
+              </div>
+             
+
+              <li class="nav-ul__list">
+                <a class="link-nav" href="#our-teh">Техническое изготовление</a>
+              </li>
+              <li class="nav-ul__list">
+                <a class="link-nav" href="#pozvolyaet"> Наши технологии позволяют</a>
+              </li>
+              <li class="nav-ul__list">
+                <a class="link-nav" href="#footer">Контанкты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+    </header>
+    
+
+   <section class="hero-section">
+        
+            <div class="container">
+                <div class="container-col col-md-12">
+                    <div class="content-hero">
+                        <img class="icon-img-hero" src="img/622625652-222.png" alt="">
+                    <div class="text">Специализированная компания по газовым турбинам наземного применения.</div>
+                    
+                    </div>
+                    <a href="#" class="link-main">Подробнее</a>
+
+                </div>
+
+            </div>
+            <div class="hero-img-block" style="background-image:url(img/bg-hero.jpg) ;"></div>
+        </section> 
+      
+        
+         <section class="promo ">
+            <div class="container">
+                <div class="container__wrapper row gy-3 ">
+                    <div class="col-12">
+                        <h2 class="title-second" id="about-company">О компании</h2>
+                    </div>
+
+                   
+                    <div class="col-md-6">
+                        <div class="block-promo__text ">
+                        
+                            <p class="about__text" >Основу компании составляют специалисты высших категорий работавших ранее на предприятиях предприятий СПБ «Машпроект» г.Николаев, Мотор-сич г.Запорожье, ЦИАМ г.Москва, Doosan Южная-корея и прочие. Этими специалистами в разное время было спроектировано несколько десятков проектов для энергетики, газопроводного транспорта. </p>
+                            <p class="about__text" >В рамках реализации инновационных проектов мы освоили все современные программы для расчета прочности, горения, температурного состояния, газодинамики турбин и компрессоров. Мы разработали методику совершенствования геометрии лопаток в трёхмерной постановке, что позволило достичь максимальных КПД отдельных узлов и двигателя в целом и подтвердили заявленные характеристики в ANSYS и экспериментально. Опробовали изготовление большинства деталей методом 3D-печати(аддитивным способом).</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="block-promo__img ">
+                            <img src="img/img-1.jpg"   class="img-about img-fluid" alt="">
+                        </div>
+                    </div>
+
+                </div>
+               
+
+            </div>
+           
+
+        </section>  
+       
+     <section class="section-3">
+            <div class="container">
+                <div class="row gy-3">
+                    <div class="col-12">
+                        <H2 class="title-carus" id="texnology"> Наши разработки </H2>
+                        </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row gy-3 ">
+                    <div class="col-md-6 card-coll">
+
+                        
+                        <div class=" card-razrabotki  card" >
+                            <div class="card-body">
+                                <img src="img/img-3.png"  class="img-card img-fluid" alt="">
+                                <h5 class="card-title">Двигатели</h5>
+                                
+                                
+                                <p class="card-text">Двигатель для электростанции 60 кВт с регенерацией имеет расход топлива в полтора раза меньший чем у своего конкурента фирмы Capstone, лидера продаж в мире. Это стало возможно при аддитивном изготовлении и совершенствовании всех узлов, но основной вклад внес компрессор. </p>
+                                
+                                <div class="content-collapse">
+                                  <div class="collapse-text-container hide" id="collapse-1">
+                                    <div>
+                                      <p class="hide-collapse__text">Его испытание подтвердили КПД на 10% больше, чем у конкурента. Проработана линейка 200, 600 и 900 кВт.</p>
+
+                                    </div>
+                                   
+                                  </div>
+                                  <div class="disp-collapse">
+                                  <div class="collapse-span  coll-btn" data-toggle="collapse-1">+</div>
+                                  </div>
+                                         
+                                </div>
+
+
+
+
+                                <!-- <a href="#" class=" btn-mincolor btn ">Заказть</a> -->
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 card-coll">
+                        <div class="card-razrabotki   card" >
+                            <div class="card-body">
+                                <img src="img/img-3.png"  class="img-card mg-fluid" alt="">
+                                <h5 class="card-title">Двигатели</h5>
+                                <p class="card-text">Двигатель 16 МВт. Длительная (10 лет) работа по совершенствованию компрессора принесла свои плоды. При степени повышения давления π*к = 25, КПД компрессора равен 88%. Это основной вклад в совершенствовании двигателя (+5% по состоянию на сегодня). .</p>
+                               
+                               
+                                <div class="content-collapse">
+                                  <div class="collapse-text-container hide" id="collapse-2">
+                                    <div>
+                                      <p class="hide-collapse__text">Значительно повышены и КПД охлаждаемых турбин – до 94% (+3%), снижены потери в камере сгорания и других трактовых переходниках. Мы уверены, что КПД двигателя будет более 43% (сейчас у большинства двигателей 33%, редко до 38%). Спроектирован вариант двигателя со свободной силовой турбиной, а различных сфер (энергетика, транспортировка газа). Проект этот экспериментально подтвердили эффективность компрессора, изготовили опытный экземпляр двигателя и опробовали аддитивное изготовление всех деталей горячего тракта. Впереди испытания двигателя.
+                                        Вариант этого двигателя с добавленной «нулевой» ступенью компрессора позволил увеличить расход воздуха в 1,5 раза, степень повышения давления до π*к = 35, мощность двигателя возросла до 25 МВт, КПД двигателя – до 45%.</p>
+                                    
+
+                                    </div>
+                                    </div>
+                                  <div class="disp-collapse">
+                                      <div class="collapse-span  coll-btn active" data-toggle="collapse-2">+</div>
+                                  </div>
+                                         
+                                </div>
+                                <!-- <a href="#" class=" btn-mincolor btn ">Заказть</a> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+        </section>  
+       <section class="section-project">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="title-carus" id="poject">
+                            О проекте 
+                        </h2>
+                        <div class="about_projectdiv">
+                            <img src="img/do-done.svg" class="to-do-svg" alt="">
+                            <p class="text-project">  Данный проект двигателя можно параметрировать в двигатели большой мощности.
+                                Максимально увеличили мощность. Расход воздуха 1000 кг/сек обеспечивает мощность 400 - 600 МВт в зависимости от температуры перед турбиной. В условиях рынка важнейший показатель качества – экономичность двигателя. Чтобы превзойти аналоги нужно добиться КПД больше 42%. А это получится, если КПД компрессора будет 90%, КПД турбины 95% и потери в камере сгорания не более 3,5%. Такую задачу мы перед собой поставили и решили. 
+                                </p>
+
+                        </div>
+                       
+            
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <section class="section-2">
+            <div class="container">
+                <div class="row gy-3">
+                    <div class="col-12">
+                        <h2 class="title-carus" id="compressor"> Расчетная часть компрессора </h2>
+                    </div>
+
+                    <p class="text-texnolog">При расчете данных мы используем мощные вычислительные машины и программы (ANSYS) для расчета течения. Стало возможным корректно оценить профиль, отдельную решетку лопаток и компрессор в целом. Верификационные расчеты компрессоров, по которым были известны экспериментальные характеристики показали хорошую сходимость. Мы зафиксировали все константы и в расчетах вариантов были уверенны, что изменение результата отражает только изменение геометрии. Первой ступени компрессора было уделено большее внимание. Оптимизационные расчёты показали, что максимум КПД 93% достигается при степени сжатия 1,8. Рабочее колесо такой ступени имеет 15 рабочих лопаток и резкий подъём втулки. Следующие семь ступеней похожи друг на друга и их КПД находится на уровне 94%. Последняя девятая ступень выполнена диагональной. Это позволило увеличить ее степень сжатия и корректно повернуть поток в радиальном направлении при высоком КПД. Весь компрессор имеет КПД 90%. Чтобы прийти к этому результату были выполнены расчеты более тысячи изодром. На рисунке 1 представлен наш двигатель в сравнении. В компрессоре 9 ступеней. </p>
+                </div>
+                <div class="row wrapper-row gy-3 ">
+                    <div class="col-md-6">
+                     
+                            <div class="card-blue  card" >
+                                <div class="card-body">
+                                    <img src="img/img-1.png" class="img-raschet img-fluid" alt="">
+                                    <p class="texnol-subtext"> Рис.1 Сравнение машин 100 МВт и 600МВт.</p>
+                                   
+                                </div>
+                            </div>
+                            
+                           
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-blue  card" >
+                            <div class="card-body">
+                                <img src="img/img-4.png" class=" img-raschet img-fluid" alt="">
+                                <p class="texnol-subtext"> Рис.2  показан характер течения в периферийном сечении компрессора.</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                
+            </div>
+        </section>  
+      <section class="section-2">
+            <div class="container">
+                <div class="row gy-3">
+                    <div class="col-12">
+                        <h2 class="title-carus" id="camera"> Расчетная часть камеры сгорания</h2>
+                    </div>
+
+                    
+                    <p class="text-texnolog">Мы предлагаем новое решение (см. рис 3). Расчет камеры велся от рабочей лопатки последней ступени компрессора до рабочей лопатки первой ступени турбины. Это исключило сомнение в правильности задания граничных условий. Наша камера - кольцевая, имеет горизонтальный разъем, что обеспечивает выемку ротора при ремонте в эксплуатации. Охлаждение жаровой трубы обеспечивается не отверстиями перфорации, а толстым слоем теплозащитного покрытия на основе окиси алюминия. Это покрытие для газовых турбин новое, но в металлургических печах применяется давно до 2000 градусов Цельсия, при скоростях потока до 150 м/сек. Отработаны технология нанесения и ремонта. Мы опробовали покрытие в жестких условиях и были удовлетворены результатом. Эти конструктивные решения позволили снизить потери полного давления до уровня 4,5% и практически исключили образование окислов азота. Воздух после последней ступени компрессора собирается в патрубки для прохода через сопловые лопатки и охлаждает их. После сопловых лопаток воздух попадает в смесители и в них подаётся топливо. После смесителей коэффициент избытка окислителя не меньше 2 и температура в зоне горения не больше 1600 К. Окислы азота при этом не образуются. Скорость воздуха в смесителе больше 100 м/сек, что исключает обратный проскок пламени.  </p>
+                    <p class="text-texnolog">Объем зоны горения увеличен и скорости течения бедной смеси и продуктов сгорания не превышают 30 м/сек. Бедная смесь поступает из смесителя налево, а в зоне горения поворачивает и течет направо. Время пребывания в зоне горения на порядок больше обычного. Хорошее смешение обеспечивает низкую температуру в зоне горения и как следствие отсутствие окислов азота. На рис. 4 и 5 показаны смешение и горение в КС. Дополнительного регулирования для обеспечения экологических характеристик не требуется.</p>
+                </div>
+                <div class="row wrapper-row gy-3">
+                    <div class="col-md-6">
+                     
+                            <div class="card-blue  card">
+                                <div class="card-body">
+                                    <img src="img/img-3-3png.png" class="img-raschet img-fluid" alt="">
+                                    <p class="texnol-subtext"> Рис.3 Течение рабочего тела в камере сгорания</p>
+                                   
+                                </div>
+                            </div>
+                            
+                           
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-blue  card" >
+                            <div class="card-body">
+                                <img src="img/img-4-4.png" class=" img-raschet img-fluid" alt="">
+                                <p class="texnol-subtext"> Рис.4  Горение метана.</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-blue  card" >
+                            <div class="card-body">
+                                <img src="img/img-4-5.png" class=" img-raschet img-fluid" alt="">
+                                <p class="texnol-subtext"> Рис.5  Поле температур в камере сгорания.</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                </div>
+
+
+
+                
+                
+                
+            </div>
+        </section> 
+
+
+
+      <section class="section-2">
+            <div class="container">
+                <div class="row gy-3">
+                    <div class="col-12">
+                        <h2 class="title-carus" id="turbina"> Расчетная часть  турбины </h2>
+                    </div>
+
+                    <p class="text-texnolog">Расчет в ANSYS подтверждал КПД в районе 94%. Много охлаждающего воздуха и нерациональный выдув его в проточную часть. В корневом сечении местная диффузорность приводит к разгону выше скорости звука, а замыкающие скачки гасят скорость. Решение проблем: Во-первых, утечки по лабиринтным уплотнениям и через радиальные зазоры в абсолютном выражении остались неизменными, но доля их с ростом общего расхода упала значительно. Во-вторых, аддитивное изготовление позволило повысить эффективность охлаждения, сократив расход охлаждающего воздуха. На рис.6 показано охлаждение рабочей лопатки первой ступени. </p>
+                   
+                    <p class="text-texnolog">Расположение каналов гарантирует хорошее охлаждение поверхности профиля и полки. Градиенты температуры по толщине стенок уменьшены в 2 – 3 раза. Аналогично уменьшены термические напряжения и соответственно увеличены запасы прочности и ресурс. В итоге на охлаждение потратили 3% воздуха после компрессора и 2% после пятой ступени Втретьих, градиент по высоте уменьшен. Первая ступень выполнена безградиентной. Проточная часть образована прямолинейными образующими параллельными вектору скорости в горле соплового аппарата. Поэтому линии тока после горла прямолинейны и параллельны.На рис.7 это наглядно представлено.</p>
+                   <p class="text-texnolog">Во второй ступени градиент по высоте уменьшен, а в третьей он всеже существенен для обеспечения осевого выхода
+                    Выходной диффузор спроектирован с учётом поля скоростей за третьей ступенью и эффективно снижает выходную скорость (см.рис.9).
+                   </p>
+                </div>
+                <div class="row wrapper-row gy-3">
+                    <div class="col-md-6">
+                     
+                            <div class="card-blue  card" >
+                                <div class="card-body">
+                                    <img src="img/img-6.png" class="img-raschet img-fluid" alt="">
+                                    <p class="texnol-subtext"> Рис.6 Охлаждение рабочей лопатки первой ступени.</p>
+                                   
+                                </div>
+                            </div>
+                            
+                           
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-blue  card" >
+                            <div class="card-body">
+                                <img src="img/img-7.png" class=" img-raschet img-fluid" alt="">
+                                <p class="texnol-subtext"> Рис.7  Линии тока после первого соплового аппарата</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row wrapper-row gy-3">
+                    <div class="col-md-6">
+                     
+                            <div class="card-blue  card" >
+                                <div class="card-body">
+                                    <img src="img/img-8.png" class="img-raschet img-fluid" alt="">
+                                    <p class="texnol-subtext"> Рис.8 Визуализация чисел Маха в периферийном сечении турбины.</p>
+                                   
+                                </div>
+                            </div>
+                            
+                           
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-blue  card" >
+                            <div class="card-body">
+                                <img src="img/img-9.png" class=" img-raschet img-fluid" alt="">
+                                <p class="texnol-subtext"> Рис.9  Выходной диффузор</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                
+            </div>
+        </section>  
+
+        <section class="section-2">
+            <div class="container">
+                <div class="row gy-3">
+                    <div class="col-12">
+                        <h2 class="title-carus" id="our-teh"> Технология изготовления </h2>
+                    </div>
+
+                    <p class="text-texnolog">Традиционные технологии изготовления представлены в нашем проекте широко. Это диски и ротор в целом, простые корпуса. Конкурентных новых технологий для них нет. В конструкции камеры сгорания и турбины мы предусмотрели изготовление деталей аддитивным способом и опробовали изготовление в масштабе 0,25. На рис10, 11 и 12 показаны эти детали и узлы. </p>
+                    <p class="text-texnolog">Представленные охлаждаемые лопатки изготовить традиционным способом. Аддитивные технологии позволяют справится с этим гораздо легче. 
+                        Мы разработали дорожную карту доводочных работ, основанную на применении моделей в масштабе 0.25, которая позволяет в 50 раз снизить расходы и сократить время этих работ  в три раза.
+                        </p>
+                </div>
+                <div class="row wrapper-row gy-3">
+                    <div class="col-md-6">
+                     
+                            <div class="card-blue  card" >
+                                <div class="card-body">
+                                    <img src="img/img-10.png" class="img-raschet-1 img-fluid" alt="">
+                                    <p class="texnol-subtext"> Рис.10 Детали горячего тракта.</p>
+                                   
+                                </div>
+                            </div>
+                            
+                           
+                        
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-blue  card" >
+                            <div class="card-body">
+                                <img src="img/img-11.png" class=" img-raschet-1 img-fluid" alt="">
+                                <p class="texnol-subtext"> Рис.11  Жаровая труба.</p>
+                               
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="card-blue  card" >
+                          <div class="card-body">
+                              <img src="img/img-12.png" class=" img-raschet-1 img-fluid" alt="">
+                              <p class="texnol-subtext">Рис.12  показан характер течения в периферийном сечении компрессора.</p>
+                             
+                          </div>
+                      </div>
+                  </div>
+                    
+                       
+                    
+
+
+                </div>
+               
+                
+                
+            </div>
+        </section>  
+        
+     
+        </section> 
+
+        <section class="last-section">
+          <div class="container">
+            <h2 class="title-carus" id="pozvolyaet">Наши технологии позволяют</h2>
+            <div class="content-container">
+              <div class="content-container__item">
+                <div class="last-number">
+                  <p class="number-position">1</p>
+                  <p>Представляет газотурбинный двигатель мощностью от 16 до 600 МВт с КПД 43-45%;</p>
+
+                </div>
+                <div class="last-number">
+                  <p class="number-position"> 2</p>
+                  <p>Документация готова для изготовления опытного образца;</p>
+
+                </div>
+                
+               
+              </div>
+              <div  class="content-container__item">
+                <div class="last-number">
+                  <p class="number-position">3</p>
+                  <p>Проект позволяет в короткие сроки с наименьшими затратами создать газотурбинный двигатель для энергетики и транспортировки газа, конкурентноспособный на мировом рынке;</p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </section>
+         
+        
+
+        
+
+
+      
+       <footer class="footer ">
+            <div class="container">
+                <div class="container__wrapper row gy-3" id="footer">
+                    
+                        <div class="block-logo-footer">
+                            <img src="img/logo.svg" alt="" />
+                            <div class="block-social">
+                                <a href="#" class="block-social__icons">
+                                  <?xml version="1.0" encoding="utf-8"?>
+                                  <svg
+                                    fill="#5555FF"
+                                    class="size-icons"
+                                    version="1.1"
+                                    id="Layer_1"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    viewBox="0 0 24 24"
+                                    xml:space="preserve"
+                                  >
+                                    <style type="text/css">
+                                      .st0 {
+                                        fill: none;
+                                      }
+                                    </style>
+                                    <path
+                                      d="M19.2,4.4L2.9,10.7c-1.1,0.4-1.1,1.1-0.2,1.3l4.1,1.3l1.6,4.8c0.2,0.5,0.1,0.7,0.6,0.7c0.4,0,0.6-0.2,0.8-0.4
+                                              c0.1-0.1,1-1,2-2l4.2,3.1c0.8,0.4,1.3,0.2,1.5-0.7l2.8-13.1C20.6,4.6,19.9,4,19.2,4.4z M17.1,7.4l-7.8,7.1L9,17.8L7.4,13l9.2-5.8
+                                              C17,6.9,17.4,7.1,17.1,7.4z"/>
+                                    <rect y="0" class="st0" width="24" height="24" />
+                                  </svg>
+                                </a>
+                                <a href="#" class="block-social__icons"
+                                  ><?xml version="1.0" encoding="utf-8"?>
+                                  <?xml version="1.0" encoding="utf-8"?>
+                  
+                                  <svg
+                                    class="size-icons"
+                                    width="40px"
+                                    height="40px"
+                                    viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="0" fill="none" width="20" height="20" />
+                                    <g>
+                                      <path
+                                        d="M16.8 5.7C14.4 2 9.5.9 5.7 3.2 2 5.5.8 10.5 3.2 14.2l.2.3-.8 3 3-.8.3.2c1.3.7 2.7 1.1 4.1 1.1 1.5 0 3-.4 4.3-1.2 3.7-2.4 4.8-7.3 2.5-11.1zm-2.1 7.7c-.4.6-.9 1-1.6 1.1-.4 0-.9.2-2.9-.6-1.7-.8-3.1-2.1-4.1-3.6-.6-.7-.9-1.6-1-2.5 0-.8.3-1.5.8-2 .2-.2.4-.3.6-.3H7c.2 0 .4 0 .5.4.2.5.7 1.7.7 1.8.1.1.1.3 0 .4.1.2 0 .4-.1.5-.1.1-.2.3-.3.4-.2.1-.3.3-.2.5.4.6.9 1.2 1.4 1.7.6.5 1.2.9 1.9 1.2.2.1.4.1.5-.1s.6-.7.8-.9c.2-.2.3-.2.5-.1l1.6.8c.2.1.4.2.5.3.1.3.1.7-.1 1z" /></g>
+                                  </svg>
+                                </a>
+                                <a href="#" class="block-social__tel">
+                                  <?xml version="1.0" ?>
+                                  <svg
+                                    class="size-icons"
+                                    width="40px"
+                                    height="40px"
+                                    viewBox="0 0 128 128"
+                                    data-name="Слой 1"
+                                    id="Слой_1"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                      <style>
+                                        .cls-1 {
+                                          fill: #ffffff;
+                                        }
+                                        .cls-2 {
+                                          fill: #5555ff;
+                                        }
+                                      </style>
+                                    </defs>
+                                    <title />
+                                    <path
+                                      class="cls-1"
+                                      d="M98,52.91V9.75A7.9,7.9,0,0,0,90,2H38a7.9,7.9,0,0,0-8,7.75v108.5A7.9,7.9,0,0,0,38,126H90a7.9,7.9,0,0,0,8-7.75Z"/>
+                                    <path
+                                      class="cls-2"
+                                      d="M90,128H38a9.89,9.89,0,0,1-10-9.75V9.75A9.89,9.89,0,0,1,38,0H90a9.89,9.89,0,0,1,10,9.75v108.5A9.89,9.89,0,0,1,90,128ZM38,4a5.89,5.89,0,0,0-6,5.75v108.5A5.89,5.89,0,0,0,38,124H90a5.89,5.89,0,0,0,6-5.75V9.75A5.89,5.89,0,0,0,90,4Z" />
+                                    <path
+                                      class="cls-2"
+                                      d="M75.05,12H52.95C50.22,12,48,9.43,48,6.28V2.49h4V6.28c0,1,.57,1.72.95,1.72H75.05c.38,0,.95-.69.95-1.72V3.11h4V6.28C80,9.43,77.78,12,75.05,12Z" />
+                                  </svg>
+                                  +7888-888-88-88
+                                </a>
+                              </div>
+
+                        </div>
+
+                       
+
+
+
+                   
+                    
+
+                </div>
+            </div>
+            
+        </footer> 
+
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/SCRIPT.JS"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+   
+  </body>
+</html>
